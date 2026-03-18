@@ -1,5 +1,11 @@
 import Link from 'next/link';
 
+const quickPoints = [
+  "Simple sample UI",
+  "Indian city routes",
+  "Seat selection + booking",
+];
+
 export default function Home() {
   return (
     <main className="flex min-h-screen items-center justify-center bg-[linear-gradient(180deg,#07111f_0%,#0b1220_55%,#020617_100%)] px-6 text-white">

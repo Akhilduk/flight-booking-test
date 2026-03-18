@@ -1,14 +1,14 @@
-# SkyBooker Flight Booking Demo
+# Simple Flight Booking Demo
 
-This project has been converted from a movie booking demo into a flight booking application built with Next.js App Router, Tailwind CSS, React Hook Form, Zod, and TanStack Query.
+This is a small sample flight booking project built with Next.js App Router, Tailwind CSS, TanStack Query, React Hook Form, and Zod.
 
-## Features
+## What it includes
 
-- Flight discovery dashboard with searchable routes.
-- Flight detail pages with itinerary information and cabin highlights.
-- Interactive seat map with business/economy pricing.
-- Passenger booking form with validation.
-- File-backed sample API routes for flights and reservations.
+- Minimal flight listing page.
+- Indian sample routes and INR pricing.
+- Flight detail page with seat selection.
+- Simple booking form with validation.
+- Local JSON API data for demo bookings.
 
 ## Run locally
 
@@ -17,14 +17,12 @@ npm install
 npm run dev
 ```
 
-Then open `http://localhost:3000`.
+Open `http://localhost:3000`.
 
-## API endpoints
+## API
 
 - `GET /api/flights`
 - `GET /api/flights/[id]`
 - `GET /api/flights/by-slug/[slug]`
 - `GET /api/flights/[id]/seats`
 - `POST /api/flights/[id]/seats`
-
-Bookings are persisted to `data/bookings.json` for demo purposes.

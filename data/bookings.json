@@ -1,16 +1,12 @@
 {
   "FL-101": [
-    { "seatId": "A1", "passengerName": "Mia Chen", "email": "mia@example.com", "tripType": "Business" },
-    { "seatId": "A2", "passengerName": "Noah Silva", "email": "noah@example.com", "tripType": "Business" },
-    { "seatId": "C4", "passengerName": "Ivy Brooks", "email": "ivy@example.com", "tripType": "One Way" },
-    { "seatId": "D5", "passengerName": "Liam Ross", "email": "liam@example.com", "tripType": "Round Trip" }
+    { "seatId": "A1", "passengerName": "Arjun Mehta", "email": "arjun@example.com", "tripType": "One Way" },
+    { "seatId": "C4", "passengerName": "Neha Patel", "email": "neha@example.com", "tripType": "One Way" }
   ],
   "FL-102": [
-    { "seatId": "B3", "passengerName": "Emma Kent", "email": "emma@example.com", "tripType": "Business" },
-    { "seatId": "E1", "passengerName": "Olivia Hart", "email": "olivia@example.com", "tripType": "One Way" }
+    { "seatId": "B3", "passengerName": "Kiran Rao", "email": "kiran@example.com", "tripType": "One Way" }
   ],
   "FL-103": [
-    { "seatId": "C2", "passengerName": "Ava Price", "email": "ava@example.com", "tripType": "One Way" },
-    { "seatId": "F6", "passengerName": "Lucas Ward", "email": "lucas@example.com", "tripType": "Round Trip" }
+    { "seatId": "F6", "passengerName": "Priya Nair", "email": "priya@example.com", "tripType": "One Way" }
   ]
 }

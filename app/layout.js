@@ -1,31 +1,16 @@
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-import Provider from "./provider";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import './globals.css';
+import Provider from './provider';
 
 export const metadata = {
-  title: "Movie Seat Booking",
-  description: "Book your movie seats online",
+  title: 'SkyBooker | Flight Booking',
+  description: 'End-to-end flight booking with route discovery, TanStack Query data fetching, and interactive seat selection.',
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <Provider>
-          {children}
-        </Provider>
+      <body className="bg-slate-950 font-sans antialiased">
+        <Provider>{children}</Provider>
       </body>
     </html>
   );

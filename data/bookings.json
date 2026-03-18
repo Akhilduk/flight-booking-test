@@ -1,25 +1,12 @@
 {
-  "2": [
-    "B4",
-    "B5",
-    "B6",
-    "B7",
-    "B8",
-    "D1",
-    "D3",
-    "D2"
+  "FL-101": [
+    { "seatId": "A1", "passengerName": "Arjun Mehta", "email": "arjun@example.com", "tripType": "One Way" },
+    { "seatId": "C4", "passengerName": "Neha Patel", "email": "neha@example.com", "tripType": "One Way" }
   ],
-  "4": [
-    "D2",
-    "D3"
+  "FL-102": [
+    { "seatId": "B3", "passengerName": "Kiran Rao", "email": "kiran@example.com", "tripType": "One Way" }
   ],
-  "6": [
-    "B2",
-    "B4",
-    "D7",
-    "D8",
-    "E1",
-    "E2",
-    "E3"
+  "FL-103": [
+    { "seatId": "F6", "passengerName": "Priya Nair", "email": "priya@example.com", "tripType": "One Way" }
   ]
 }

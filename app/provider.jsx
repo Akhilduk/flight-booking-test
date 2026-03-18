@@ -1,5 +1,4 @@
 "use client";
-import React, { useState, useEffect } from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 
@@ -27,10 +26,8 @@ function getQueryClient() {
 }
 
 function DevtoolsWrapper() {
-  const [mounted, setMounted] = useState(false);
-  useEffect(() => setMounted(true), []);
   if (process.env.NODE_ENV !== "development") return null;
-  return mounted ? <ReactQueryDevtools initialIsOpen={false} /> : null;
+  return <ReactQueryDevtools initialIsOpen={false} />;
 }
 
 export default function Provider({ children }) {
